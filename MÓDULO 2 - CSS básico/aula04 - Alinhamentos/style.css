@@ -1,0 +1,19 @@
+
+
+body {
+    font: normal 16px Arial, Verdana, serif;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    text-align: justify; /* Alinha tanto no canto esquerdo quanto no direito */
+    text-indent: 20px; /* Espaço no primeiro paragrafo */
+} 

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #59c789, #395546);
+    color: white; 
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0px;
+    padding-top: 1px;
+}
+
+main {
+    margin: 0px 10%;
+    background-color: white;
+    padding: 10px 15px 12px 15px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+header > nav {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+#a1 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.1em;
+    border-right: 20px;
+}
+
+#a1:hover {
+    color: red;
+    background-color: #395546;
+}
+
+h1 {
+    font-family: 'Klee One', cursive, serif;
+}
+
+#h1sec {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.2em;
+    padding-left: 5px;
+}
+
+h2 {
+    font-family: 'Klee One', cursive, serif;
+    background-image: linear-gradient(to right, #59c789, white);
+    padding-left: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#pIni {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#secVid {
+    background-color: #1A5C38;
+    padding: 20px 0px 20px 0px;
+}
+
+#divList {
+    background-color: #84E1AD;
+    border-radius: 20px 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+h3 {
+    background-color: #2FA866;
+    margin: -5px;
+    padding: 14px 0px 5px 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+ul {
+    display: inline-block;
+}
+
+#ulDireita {
+    padding-inline-start: 200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 20px 0px -20px 0px;
+    padding: 0px
+}
+
+#pFoot {
+    text-align: center;
+}
+
+#pChato {
+    padding-left: 10px;
+}
+
+.destaque {
+    color: #1A5C38;
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.219);
+}
+
+.destaque:hover {
+    color: red;
+}
+
+#divp1 > p {
+    background-color: white;
+}

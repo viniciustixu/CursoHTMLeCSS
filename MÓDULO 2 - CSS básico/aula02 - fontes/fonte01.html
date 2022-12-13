@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas: 
+            cm, mm, in, px, pt, pc
+
+          
+            Medidas Relativas: 
+            em, ex, rem, vw, vh, %
+            
+            1em = 16px
+            Usar sempre que possível em e px
+            */
+            font-size: 1.2em;
+            font-weight: lighter; /* (lighter, normal, bold, bolder) Esse é o peso da fonte, o tanto que ela fica gordinha. Nem toda fonte possui essas variações de peso */
+            font-style: oblique; /* por aqui da pra fazer negrito, italico(italic), sublinhado(underline) */
+            /* 
+            shorthand font
+                - font style -> font-weight -> font-size -> font-family 
+            
+            Em vez de usar isso:
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+            font-weight: lighter;
+            font-style: oblique;
+
+            Basta usar da forma abaixo: */
+
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <H1>Trabalhando com fontes</H1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugit nulla id quasi reiciendis voluptatum consequatur ab at veritatis odio unde pariatur atque maxime amet, inventore placeat maiores sit laborum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse ducimus repudiandae inventore fuga, dicta officiis, obcaecati ab eligendi alias labore. Architecto incidunt, atque earum autem quasi ducimus aspernatur ipsam!</p>
+    <h2>subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, sit itaque reprehenderit debitis nam culpa aspernatur placeat sequi consectetur esse atque cumque quidem molestias labore neque eligendi officia sapiente fugiat.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid rem quos voluptate molestiae quia velit exercitationem facilis quae ducimus, voluptatibus ipsum, aperiam natus ad, beatae eius tempore repudiandae laborum! Deserunt?</p>
+
+</body>
+</html> 

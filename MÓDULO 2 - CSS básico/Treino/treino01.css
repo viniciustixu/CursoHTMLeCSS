@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    background-image: linear-gradient(90deg, #F2E5D5, #8C7C68);
+}
+
+h1 {
+    font-family: 'Klee One', cursive, serif;
+    text-align: center;
+    color: #8C7C68;
+    text-shadow: 1px 1px 1px #030303d0;
+}
+
+main {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px #261A0B;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h2 {
+    color: #382610;
+    font-family: 'Amatic SC', cursive, serif;
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+}
+
+div {
+    padding: 20px;
+    text-align: center;   /* Aqui eu não consegui alinhar com o 'main' */
+}
