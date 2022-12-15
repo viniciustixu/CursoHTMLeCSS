@@ -1,0 +1,8 @@
+body {
+    border: 1px solid black;
+    height: 97vh; /* vh = viewHigh */
+    background-image: url(https://upload.wikimedia.org/wikipedia/pt/9/98/Alucard_SotN.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

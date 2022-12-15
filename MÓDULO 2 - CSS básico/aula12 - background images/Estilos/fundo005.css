@@ -1,0 +1,5 @@
+body {
+    height: 97vh; /* Sem esse comando o body por padrão tem uma altura achatada */
+    background-image: url(../imagens/wallpaper003.jpg);
+    background-position: center center;
+}
