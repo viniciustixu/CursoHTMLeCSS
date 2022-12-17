@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Crafty+Girls&family=Klee+One&family=Princess+Sofia&display=swap');
+
+body {
+    background-color: rgb(117, 117, 117);
+}
+
+
+
+:root {
+    --color1: #F2889B;
+    --color2: #FFF8EE;
+    --color3: #95BFA4;
+    --color4: #F29E38;
+    --color5: #F28444;
+
+    --font1: 'Butterfly Kids', serif;
+    --font2: 'Crafty Girls', serif;
+    --font3: 'Klee One', serif;
+    --font4: 'Princess Sofia', serif;
+}
+
+#p1 {
+    color: var(--color1);
+    font-family: var(--font1);
+}
+
+#p2 {
+    color: var(--color2);
+    font-family: var(--font2);
+}
+
+#p3 {
+    color: var(--color3);
+    font-family: var(--font3);
+}
+
+#p4 {
+    color: var(--color4);
+    font-family: var(--font4);
+}
+
+#p5 {
+    color: var(--color5);
+    font-family: var(--font4);
+}
