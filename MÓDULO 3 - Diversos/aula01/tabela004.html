@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopos</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,td {
+            border: 1px solid black;
+            padding: 5px;
+            width: 100px;
+            text-align:center;
+            height: 50px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Escopos de tabelas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">grupos</th> <!--''Os dados desse th estão listados em forma de coluna (scope=col)''-->
+                <th scope="col">nomes</th>
+                <th colspan="3" scope="colgroup">filmes</th> <!--''Os dados desse th estão listados em forma de multiplas colunas (scope=colgroup)''-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th> <!--''Os dados desse th estão listados em forma de mais de um dado na mesma linha(scope=rowgroup)''-->
+                <td>beatriz souza</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+            </tr>
+            <tr>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</td>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+            </tr>
+            <tr>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+            </tr>
+            <tr>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+                <td>inception</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
