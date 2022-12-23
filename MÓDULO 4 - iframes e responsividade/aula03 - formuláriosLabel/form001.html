@@ -13,9 +13,9 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" method="POST" autocomplete="off">
-        <p><label for="inome">Nome:</label><input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="isobrenome"></p>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+        <p><label for="inome">Nome:</label><input type="text" name="nome" id="inome" required minlength="5" maxlength="15" size="15" placeholder="Nome do usuário" autocomplete="username"></p>
+        <p><label for="isobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="isobrenome" required minlength="8" maxlength="20" size="8" autocomplete="current-password"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
